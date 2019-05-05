@@ -55,6 +55,7 @@ end
       if short_tweet.length > 140 
      puts short_tweet[0..139]+ "..."
     end
+    short_tweet
   end
 
     
