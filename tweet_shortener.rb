@@ -51,7 +51,8 @@ end
 end
 
     def shortened_tweet_truncator (tweets)
-      short_tweet.split = word_substituter(tweets)
+      short_tweet = word_substituter(tweets)
+      short_tweet.split
       if short_tweet.length > 140 
      puts short_tweet[0..139]+ "..."
     end
